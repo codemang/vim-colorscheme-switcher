@@ -1,5 +1,8 @@
 # Color scheme switcher for Vim
 
+This is a fork of the project which adds a function to choose a specific color
+scheme.
+
 The colorscheme switcher plug-in for the [Vim text editor] [vim] makes it easy to quickly switch between [colorschemes] [cs]. It defines commands and mappings to switch to the next and previous color schemes.
 
 ## Installation
