@@ -35,6 +35,7 @@ endif
 command! -bar NextColorScheme call xolox#colorscheme_switcher#next()
 command! -bar PrevColorScheme call xolox#colorscheme_switcher#previous()
 command! -bar RandomColorScheme call xolox#colorscheme_switcher#random()
+command! -nargs=1 ChooseColorScheme call xolox#colorscheme_switcher#switch_to(<f-args>)
 
 " Don't reload the plug-in once it has loaded successfully.
 let g:loaded_colorscheme_switcher = 1
